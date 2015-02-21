@@ -779,7 +779,7 @@ $.fn.dateDropper = function( options ) {
 			x = x.getDay();
 
 			//day
-			j = d.substr(1), 			// 1-31
+			j = d.toString().substr(1), 			// 1-31
 			D = dayNames[x].substr(0,3), 		// Sun, Mon
 			l = dayNames[x]; 			// Sunday, Monday
 
